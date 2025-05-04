@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puzzle 3x3</title>
+</head>
+<body>
+    <div class="puzzle-container">
+        <div class="title">PUZZLE CASTIGOD</div>
+        <div id="puzzle" class="puzzle">
+            <!-- Las celdas del puzzle se generarán aquí mediante JavaScript -->
+        </div>
+        <button id="start-button" class="start-button" onclick="startPuzzle()">Iniciar</button>
+        <button id="reset-button" class="reset-button" onclick="resetPuzzle()">Volver</button>
+    </div>
+
+    <div id="popup" class="popup">
+        <div id="popup-content" class="popup-content">
+            <p>¡RESUELTO!</p>
+            <button id="close-popup-button" class="close-popup-button" onclick="closePopup()">Volver</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
